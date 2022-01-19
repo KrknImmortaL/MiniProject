@@ -1,0 +1,70 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+}
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Aldrich', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #f3f4f6;
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}    
+
+.container {
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #111827;
+    width: 100%;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+    border-radius: .75rem;
+    
+}
+
+#clock {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 5rem;
+    background-color: #f3f4f6;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.controls {
+    margin-top: 16px;
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: #f3f4f6;
+    padding: 8px 13px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.set-alarm {
+    background-color: crimson;
+}
+
+.clear-alarm {
+    background-color: #019701;
+}
